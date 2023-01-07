@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,11 +6,10 @@
 }
 
 /* header section */
-.header-section{
+.header-section {
     background-image: url(../images/banner/banner1.png);
     background-size: cover;
-    /* width:1600px; */
-    width: 1100px;
+    width: 1600px;
     height: 808px;
     top: 808px;
     left: 1600px;
@@ -18,7 +17,8 @@
     justify-content: end;
 
 }
-.header-title{
+
+.header-title {
     margin: 216px 230px 364px 845px;
     width: 525px;
     height: 228px;
@@ -31,7 +31,8 @@
     font-size: 65px;
     color: #151414;
 }
-.header-title-para{
+
+.header-title-para {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
@@ -44,7 +45,8 @@
     left: 876px;
     top: 468px;
 }
-.btn-primary{
+
+.btn-primary {
     background-color: orangered;
     position: absolute;
     width: 160px;
@@ -55,24 +57,27 @@
 }
 
 /* main section part section 1 */
-.sec-1-container{
+.sec-1-container {
     display: flex;
 }
-.sec-1-image{
+
+.sec-1-image {
     position: absolute;
     width: 570px;
     height: 723px;
     left: 205px;
     top: 940px;
 }
-.sec-1-content{
+
+.sec-1-content {
     position: absolute;
     width: 415px;
     height: 400px;
     left: 60px;
     top: 40px;
 }
-.content-title{
+
+.content-title {
     font-family: 'Work Sans', sans-serif;
     font-weight: 700;
     font-size: 40px;
@@ -84,7 +89,8 @@
     position: absolute;
     color: #151414;
 }
-.content-para{
+
+.content-para {
     position: absolute;
     width: 415px;
     height: 105px;
@@ -97,25 +103,28 @@
     color: #444343;
 
 }
-.content-list{
+
+.content-list {
     width: 350px;
     height: 160px;
     position: absolute;
     top: 1415px;
     left: 860px;
 }
-.content-list li{
+
+.content-list li {
     list-style: inside;
     list-style-image: url(../images/icons/check-solid.svg);
     line-height: 25px;
 }
+
 /* section 2 (my plans) */
-.my-plans{
+.my-plans {
     width: 180px;
     height: 47px;
 }
 
-.my-plan-heading{
+.my-plan-heading {
     font-size: 40px;
     font-weight: 700;
     line-height: 45px;
@@ -129,15 +138,17 @@
     left: 710px;
 
 }
-.my-plans-container{
+
+.my-plans-container {
     display: flex;
     gap: 80px;
     justify-content: center;
     /* width: 270px;
     height: 80px; */
-   
+
 }
-.all-plans-heading-1{
+
+.all-plans-heading-1 {
     width: 270px;
     height: 35px;
     position: absolute;
@@ -148,7 +159,8 @@
     text-align: center;
     color: #151414;
 }
-.all-plans-heading-2{
+
+.all-plans-heading-2 {
     width: 270px;
     height: 35px;
     position: absolute;
@@ -159,7 +171,8 @@
     text-align: center;
     color: #151414;
 }
-.all-plans-heading-3{
+
+.all-plans-heading-3 {
     width: 270px;
     height: 35px;
     position: absolute;
@@ -170,7 +183,8 @@
     text-align: center;
     color: #151414;
 }
-.all-plans-heading-4{
+
+.all-plans-heading-4 {
     width: 270px;
     height: 35px;
     position: absolute;
@@ -181,7 +195,8 @@
     text-align: center;
     color: #151414;
 }
-.all-plans-para-1{
+
+.all-plans-para-1 {
     width: 177px;
     height: 30px;
     position: absolute;
@@ -193,7 +208,8 @@
     color: #737272;
     font-weight: 500;
 }
-.all-plans-para-2{
+
+.all-plans-para-2 {
     width: 220px;
     height: 30px;
     position: absolute;
@@ -205,7 +221,8 @@
     color: #737272;
     font-weight: 500;
 }
-.all-plans-para-3{
+
+.all-plans-para-3 {
     width: 180px;
     height: 30px;
     position: absolute;
@@ -217,7 +234,8 @@
     color: #737272;
     font-weight: 500;
 }
-.all-plans-para-4{
+
+.all-plans-para-4 {
     width: 220px;
     height: 30px;
     position: absolute;
@@ -229,7 +247,8 @@
     color: #737272;
     font-weight: 500;
 }
-.sec-plans-logo-1{
+
+.sec-plans-logo-1 {
     width: 90px;
     height: 90px;
     position: absolute;
@@ -237,29 +256,33 @@
     left: 330px;
 
 }
-.sec-plans-logo-2{
+
+.sec-plans-logo-2 {
     width: 90px;
     height: 90px;
     position: absolute;
     top: 1900px;
     left: 630px;
 }
-.sec-plans-logo-3{
+
+.sec-plans-logo-3 {
     width: 90px;
     height: 90px;
     position: absolute;
     top: 1900px;
     left: 915px;
 }
-.sec-plans-logo-4{
+
+.sec-plans-logo-4 {
     width: 90px;
     height: 90px;
     position: absolute;
     top: 1900px;
     left: 1215px;
 }
+
 /* background image watch area */
-.sec-2-bg-image{
+.sec-2-bg-image {
     /* width: 1140px; */
     width: 1100px;
     height: 300px;
@@ -272,7 +295,8 @@
     left: 295px;
     border-radius: 10px;
 }
-.watch-heading-1{
+
+.watch-heading-1 {
     width: 460px;
     height: 95px;
     position: absolute;
@@ -282,9 +306,10 @@
     font-weight: 700;
     line-height: 45px;
     color: #eee4e4fd;
-    
+
 }
-.watch-header-btn{
+
+.watch-header-btn {
     position: absolute;
     top: 170px;
     left: 70px;
@@ -294,35 +319,72 @@
     border: none;
     border-radius: 5px;
 }
+
 /* assignment adding part */
-.own-part{
+.own-part {
     width: 1100px;
-    height: 600px;
-    background-image:linear-gradient(90deg,rgb(189, 52, 52) 0%, rgb(87, 87, 201) 60%) ;
+    height: 500px;
+    background-image: linear-gradient(90deg, rgb(189, 52, 52) 0%, rgb(87, 87, 201) 60%);
     position: absolute;
-    top: 2600px;
-    left: 80px;
+    top: 2700px;
+    left: 300px;
+    border-radius: 5px;
 }
-.own-part-container{
+
+.own-part-container {
     display: flex;
     justify-content: space-around;
+    margin-top: 40px;
+    
 }
+.dream{
+    font-size: 70px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 50px;
+    color: #cab2b2;
+    margin-bottom: 60px;
+}
+.pd{
+    font-size: 40px;
+    font-weight: 800;
+    color: hsla(266, 68%, 73%, 0.856);
+}
+.dream-list{
+    list-style: lower-roman;
+    font-size: 18px;
+    color: #faf9f9;
+    font-weight: 400;
+    line-height: 30px;
+}
+.zs-img{
+    position: absolute;
+    top: 10px;
+    left: 240px;
+}
+.owner-img{
+    width: 120px;
+    height: 140px;
+    border-radius: 50px;
+}
+
 /* footer section */
-.footer-sec-1{
-    /* width: 1600px; */
-    width: 1100px;
+.footer-sec-1 {
+    width: 1600px;
     height: 570px;
     background-color: #151414;
     position: absolute;
-    top: 2650px;
+    top: 3250px;
     left: 0;
+    right: 0;
 }
-.footer-container{
+.footer-container {
     display: flex;
     justify-content: center;
     gap: 60px;
 }
-.future{
+
+.future {
     width: 485px;
     height: 315px;
     position: absolute;
@@ -330,7 +392,8 @@
     left: 200px;
     border-radius: 10px;
 }
-.subscribe{
+
+.subscribe {
     width: 485px;
     height: 315px;
     position: absolute;
@@ -338,7 +401,8 @@
     left: 1050px;
     border-radius: 10px;
 }
-.future-heading{
+
+.future-heading {
     width: 150px;
     height: 55px;
     position: absolute;
@@ -349,7 +413,8 @@
     line-height: 50px;
     color: white;
 }
-.future-para{
+
+.future-para {
     width: 485px;
     height: 80px;
     position: absolute;
@@ -360,7 +425,8 @@
     color: #FFFFFF;
     font-weight: 400;
 }
-.contact-info{
+
+.contact-info {
     position: absolute;
     top: 310px;
     left: 60px;
@@ -368,14 +434,17 @@
     height: 145px;
     color: #FFFFFF;
 }
-.mailto{
+
+.mailto {
     text-decoration: none;
     color: #FFFFFF;
 }
-.phone{
+
+.phone {
     margin-top: 30px;
 }
-.sub-heading{
+
+.sub-heading {
     width: 150px;
     height: 55px;
     position: absolute;
@@ -386,7 +455,8 @@
     line-height: 50px;
     color: white;
 }
-.sub-mail{
+
+.sub-mail {
     width: 320px;
     height: 60px;
     position: absolute;
@@ -398,7 +468,8 @@
     border-radius: 10px;
     padding: 10px 20px;
 }
-.footer{
+
+.footer {
     position: absolute;
     top: 290px;
     left: 20px;
@@ -408,17 +479,15 @@
     color: #d64912;
     background: #FFFFFF;
 }
+
 /* social icon footer section */
-.social-icon-1{
+.social-icon-1 {
     position: absolute;
     top: 410px;
     left: 60px;
-    
+
 }
-.icon{
+
+.icon {
     margin-right: 20px;
 }
-
-
-
-
